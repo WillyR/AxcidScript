@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>AxcidMarket</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../css/market.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<a href="#marketModal" role="button" class="btn" data-toggle="modal">We need some type of notification to tell the user there is apps on this page...</a>
+
+<div id="marketModal" class="modal hide fade" tabindex="-1" role="dialog">
+
+    <div class="modal-body">
+        <div id="axcidMarketWidget" class="axcidWidget">
+            <div class="">
+                <div id="axcidMarketTitle">Axcid Script Market</div>
+                <ul class="nav nav-tabs" id="marketTabs">
+                    <li class="active"><a href="#axcidMarketTab" data-toggle="tab">App Market</a></li>
+                    <li><a href="#axcidMarketTweaksTab" data-toggle="tab">Site Tweaks</a></li>
+                    <li><a href="#axcidMarketOptionsTab" data-toggle="tab">Options</a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="axcidMarketTab">
+                    <div class="accordion" id="accordion2">
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                    Top apps for domain.com
+                                </a>
+                            </div>
+                            <div id="collapseOne" class="accordion-body collapse in">
+                                <div class="accordion-inner">
+                                    <div class="app-results">
+                                        <div class="row-fluid">
+                                            <table class="table table-striped" style="border-top: 1px solid #DDD;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td><img class="app-result-icon" src="http://files.softicons.com/download/application-icons/48px-icons-1-4-by-leonard-schwarz/png/48x48/Map.png" /></td>
+                                                        <td><div class="app-result-snippet">Custom avatars for turntable</div></td>
+                                                        <td><div class="app-result-actions"><a href="#" role="button" class="btn btn-primary">Install</a></div></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><img class="app-result-icon" src="../images/gmail-icon.png" /></td>
+                                                        <td><div class="app-result-snippet">Even better app</div></td>
+                                                        <td>
+                                                            <div class="app-result-actions">
+                                                                <div class="btn-group" data-toggle="buttons-radio">
+                                                                    <button type="button" class="btn btn-primary active">On</button>
+                                                                    <button type="button" class="btn btn-primary">Off</button>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><img class="app-result-icon" src="../images/gmail-icon.png" /></td>
+                                                        <td><div class="app-result-snippet">Even better app</div></td>
+                                                        <td>
+                                                            <div class="app-result-actions">
+                                                                <div class="btn-group" data-toggle="buttons-radio">
+                                                                    <button type="button" class="btn btn-primary">On</button>
+                                                                    <button type="button" class="btn btn-primary active">Off</button>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><img class="app-result-icon" src="../images/gmail-icon.png" /></td>
+                                                        <td><div class="app-result-snippet">Even better app</div></td>
+                                                        <td>
+                                                            <div class="app-result-actions">
+                                                                <div class="btn-group" data-toggle="buttons-radio">
+                                                                    <button type="button" class="btn btn-primary active">On</button>
+                                                                    <button type="button" class="btn btn-primary">Off</button>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                    Top apps (Script Market)
+                                </a>
+                            </div>
+                            <div id="collapseTwo" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <div class="app-results">
+                                        <div class="row-fluid">
+                                            <table class="table table-striped" style="border-top: 1px solid #DDD;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td><img class="app-result-icon" src="../images/gmail-icon.png" /></td>
+                                                        <td><div class="app-result-snippet">Even better app</div></td>
+                                                        <td>
+                                                            <div class="app-result-actions">
+                                                                <div class="btn-group" data-toggle="buttons-radio">
+                                                                    <button type="button" class="btn btn-primary active">On</button>
+                                                                    <button type="button" class="btn btn-primary">Off</button>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="axcidMarketTweaksTab">
+                    Tweaks...
+                </div>
+                <div class="tab-pane" id="axcidMarketOptionsTab">
+                    fuck
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap-transition.js"></script>
+<script src="../js/bootstrap-alert.js"></script>
+<script src="../js/bootstrap-modal.js"></script>
+<script src="../js/bootstrap-scrollspy.js"></script>
+<script src="../js/bootstrap-tab.js"></script>
+<script src="../js/bootstrap-tooltip.js"></script>
+<script src="../js/bootstrap-button.js"></script>
+<script src="../js/bootstrap-collapse.js"></script>
+<script src="../js/market.js"></script>
+
+</body>
+</html>

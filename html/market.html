@@ -43,49 +43,9 @@
                                 <div class="accordion-inner">
                                     <div class="app-results">
                                         <div class="row-fluid">
-                                            <table class="table table-striped" style="border-top: 1px solid #DDD;">
-                                                <tbody>
-                                                    <tr>
-                                                        <td><img class="app-result-icon" src="http://files.softicons.com/download/application-icons/48px-icons-1-4-by-leonard-schwarz/png/48x48/Map.png" /></td>
-                                                        <td><div class="app-result-snippet">Custom avatars for turntable</div></td>
-                                                        <td><div class="app-result-actions"><a href="#" role="button" class="btn btn-primary">Install</a></div></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img class="app-result-icon" src="../images/gmail-icon.png" /></td>
-                                                        <td><div class="app-result-snippet">Even better app</div></td>
-                                                        <td>
-                                                            <div class="app-result-actions">
-                                                                <div class="btn-group" data-toggle="buttons-radio">
-                                                                    <button type="button" class="btn btn-primary active">On</button>
-                                                                    <button type="button" class="btn btn-primary">Off</button>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img class="app-result-icon" src="../images/gmail-icon.png" /></td>
-                                                        <td><div class="app-result-snippet">Even better app</div></td>
-                                                        <td>
-                                                            <div class="app-result-actions">
-                                                                <div class="btn-group" data-toggle="buttons-radio">
-                                                                    <button type="button" class="btn btn-primary">On</button>
-                                                                    <button type="button" class="btn btn-primary active">Off</button>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img class="app-result-icon" src="../images/gmail-icon.png" /></td>
-                                                        <td><div class="app-result-snippet">Even better app</div></td>
-                                                        <td>
-                                                            <div class="app-result-actions">
-                                                                <div class="btn-group" data-toggle="buttons-radio">
-                                                                    <button type="button" class="btn btn-primary active">On</button>
-                                                                    <button type="button" class="btn btn-primary">Off</button>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
+                                            <table class="table table-striped">
+                                                <tbody id="appResultsBody">
+
                                                 </tbody>
                                             </table>
                                         </div>
@@ -139,7 +99,27 @@
 </div>
 
 
+<script id="appResultTemplate" type="text/x-jquery-tmpl">
+    <tr>
+        <td><img class="app-result-icon" src="${icon}" /></td>
+        <td><div class="app-result-snippet">${title}</div></td>
+        <td>
+            <div class="app-result-actions">
+                {{if installed}}
+                <div class="btn-group" data-toggle="buttons-radio">
+                    <button type="button" class="btn btn-primary active">On</button>
+                    <button type="button" class="btn btn-primary">Off</button>
+                </div>
+                {{else}}
+                <div class="app-result-actions"><a href="#" role="button" class="btn btn-primary">Install</a></div>
+                {{/if}}
+            </div>
+        </td>
+    </tr>
+</script>
+
 <script src="../js/jquery.js"></script>
+<script src="../js/jquery.tmpl.min.js"></script>
 <script src="../js/bootstrap-transition.js"></script>
 <script src="../js/bootstrap-alert.js"></script>
 <script src="../js/bootstrap-modal.js"></script>

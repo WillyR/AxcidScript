@@ -1,3 +1,36 @@
+jQuery.fn.imageFromB64 = function(encodedImageSource) {
+    //set the data type for the source and append the encoded image
+    $(this).attr('src', 'data:image/gif;base64,' + encodedImageSource);
+};
+
+var AxcidScript = AxcidScript || {};
+
+// The core script loader. Loads packed micro web applications and injects them into the page DOM.
+(function(ns){
+
+    // Register the class
+    ns.ScriptLoader = (function() {
+
+        // The actual loader class
+        var Loader = function(ns) {
+            // Constructor Code
+        };
+
+        // Load a package from a remote URL (This is where as a production app, we will need to serve resources over HTTPS and make sure scripts are authorized to run.
+        // Serve the result over JSONP
+        Loader.prototype.loadRemotePackage = function(url)
+        {
+
+        };
+
+        // Initialize it so this function returns an instance of itself.
+        return new Loader(ns);
+    })();
+
+})(AxcidScript);
+
+
+
 $(function () {
     var apps = [
         {

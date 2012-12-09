@@ -59,6 +59,13 @@ $(function () {
     $(document).ready(function() {
         //activate our market
         $('#marketModal').modal('show');
+
+        //make the scroll sexy for our app results
+        $('.app-results').slimScroll({
+            height: '190px',
+            alwaysVisible: false
+        });
+
         //test out our template
         $('#appResultTemplate').tmpl(apps).appendTo('#appResultsBody');
     });

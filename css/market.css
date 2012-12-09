@@ -21,7 +21,7 @@
 
 .app-result-actions {
     line-height: 48px;
-    vertical-align: right;
+    text-align: right;
 }
 
 .app-result-snippet {

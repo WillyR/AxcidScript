@@ -18,8 +18,11 @@ var AxcidScript = AxcidScript || {};
 
         // Load a package from a remote URL (This is where as a production app, we will need to serve resources over HTTPS and make sure scripts are authorized to run.
         // Serve the result over JSONP
-        Loader.prototype.loadRemotePackage = function(url)
-        {
+        Loader.prototype.loadRemotePackage = function(url) {
+
+        };
+
+        Loader.prototype.injectJS = function(js) {
 
         };
 
@@ -28,8 +31,6 @@ var AxcidScript = AxcidScript || {};
     })();
 
 })(AxcidScript);
-
-
 
 $(function () {
     var apps = [

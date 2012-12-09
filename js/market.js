@@ -13,7 +13,7 @@ var AxcidScript = AxcidScript || {};
     };
 
     ns.installButtonClicked = function(scriptID, el) {
-        $(el).button('loading')
+        $(el).button('loading');
     };
 
     // Register the class
@@ -39,6 +39,20 @@ var AxcidScript = AxcidScript || {};
         };
 
         Loader.prototype.injectJS = function(js) {
+
+        };
+
+        Loader.prototype.loadSiteApplications = function() {
+            $.getJSON(API_ROOT + 'api/motherfuckinglist', function(data) {
+
+            });
+        };
+
+        Loader.prototype.loadTopApplications = function() {
+
+        };
+
+        Loader.prototype.renderApplicationsList = function() {
 
         };
 

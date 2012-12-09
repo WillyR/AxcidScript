@@ -8,6 +8,10 @@ var AxcidScript = AxcidScript || {};
 // The core script loader. Loads packed micro web applications and injects them into the page DOM.
 (function(ns){
 
+    ns.installButtonClicked = function(scriptID, el) {
+        $(el).button('loading')
+    };
+
     // Register the class
     ns.ScriptLoader = (function() {
         var API_ROOT = "";

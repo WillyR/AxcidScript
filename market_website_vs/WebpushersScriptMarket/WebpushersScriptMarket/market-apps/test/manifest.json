@@ -1,0 +1,25 @@
+{
+	"package_name": "com.webpushers.test",
+	
+	"app_name": "Webpushers",
+	
+	"dependencies": [ "jquery-1.8.2", "jquery-ui-1.2", "http://underscorejs.com/backbone.js" ],
+
+	"app_icon": "icon.png",
+
+	"css_files" : [ "elements.css" ],
+	"scripts": [ "test.js" ],
+	
+	"resources": [],
+	
+	"domains" : [ "axcid.org" ],
+
+	"widgets": [
+		{
+			"frame_id": "my_frame", 
+			"html" : "mywidget.html",
+			"css_files" : [ "elements.css" ],
+			"scripts": [ "test.js", "widget.js" ]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+C:\Users\Gray\Documents\GitHub\AxcidScript\market_website_vs\WebpushersScriptMarket\WebpushersScriptMarket\bin\WebpushersScriptMarket.dll
+C:\Users\Gray\Documents\GitHub\AxcidScript\market_website_vs\WebpushersScriptMarket\WebpushersScriptMarket\bin\WebpushersScriptMarket.pdb
+C:\Users\Gray\Documents\GitHub\AxcidScript\market_website_vs\WebpushersScriptMarket\WebpushersScriptMarket\bin\WebpushersPacker.dll
+C:\Users\Gray\Documents\GitHub\AxcidScript\market_website_vs\WebpushersScriptMarket\WebpushersScriptMarket\bin\Newtonsoft.Json.dll
+C:\Users\Gray\Documents\GitHub\AxcidScript\market_website_vs\WebpushersScriptMarket\WebpushersScriptMarket\bin\Yahoo.Yui.Compressor.dll
+C:\Users\Gray\Documents\GitHub\AxcidScript\market_website_vs\WebpushersScriptMarket\WebpushersScriptMarket\bin\EcmaScript.NET.dll
+C:\Users\Gray\Documents\GitHub\AxcidScript\market_website_vs\WebpushersScriptMarket\WebpushersScriptMarket\bin\Iesi.Collections.dll
+C:\Users\Gray\Documents\GitHub\AxcidScript\market_website_vs\WebpushersScriptMarket\WebpushersScriptMarket\bin\WebpushersPacker.pdb
+C:\Users\Gray\Documents\GitHub\AxcidScript\market_website_vs\WebpushersScriptMarket\WebpushersScriptMarket\bin\Newtonsoft.Json.xml
+C:\Users\Gray\Documents\GitHub\AxcidScript\market_website_vs\WebpushersScriptMarket\WebpushersScriptMarket\bin\Iesi.Collections.xml
+C:\Users\Gray\Documents\GitHub\AxcidScript\market_website_vs\WebpushersScriptMarket\WebpushersScriptMarket\obj\Debug\WebpushersScriptMarket.csprojResolveAssemblyReference.cache
+C:\Users\Gray\Documents\GitHub\AxcidScript\market_website_vs\WebpushersScriptMarket\WebpushersScriptMarket\obj\Debug\WebpushersScriptMarket.dll
+C:\Users\Gray\Documents\GitHub\AxcidScript\market_website_vs\WebpushersScriptMarket\WebpushersScriptMarket\obj\Debug\WebpushersScriptMarket.pdb
